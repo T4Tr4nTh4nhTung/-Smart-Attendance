@@ -8,27 +8,36 @@ Trước khi chạy dự án, bạn cần cài đặt một số thư viện c�
 
 ### 1. OpenCV (cv2):
 OpenCV là thư viện xử lý ảnh và video rất mạnh mẽ trong Python. Bạn có thể cài đặt OpenCV bằng lệnh pip như sau:
+pip install opencv-python
 
 ### 2. face_recognition:
 face_recognition là thư viện sử dụng để nhận diện khuôn mặt trong hình ảnh. Bạn có thể cài đặt face_recognition bằng lệnh pip như sau:
+pip install face-recognition
 
 ### 3. numpy (np):
 numpy là thư viện để làm việc với mảng và các thao tác số học. Bạn có thể cài đặt numpy bằng lệnh pip như sau:
+pip install numpy
 
 ### 4. pandas (pd):
 pandas là thư viện để làm việc với bảng dữ liệu (CSV). Bạn có thể cài đặt pandas bằng lệnh pip như sau:
+pip install pandas
 
 ### 5. mtcnn:
 mtcnn là thư viện nhận diện khuôn mặt trong hình ảnh. Bạn có thể cài đặt mtcnn bằng lệnh pip như sau:
+pip install mtcnn
 
 ### 6. tkinter:
 tkinter là thư viện để xây dựng giao diện người dùng đơn giản và thân thiện. Bạn có thể cài đặt tkinter bằng lệnh pip như sau:
+pip install tk
 
 ### 7. PIL:
 PIL (Python Imaging Library) là thư viện để làm việc với hình ảnh. Bạn có thể cài đặt PIL bằng lệnh pip như sau:
+pip install pillow
+
 
 ### 8. winsound:
 winsound là thư viện sử dụng để phát âm thanh thông báo khi điểm danh thành công. Bạn không cần phải cài đặt thư viện này, vì nó là một thư viện được tích hợp sẵn trong Python.
+
 
 ## Hướng dẫn sử dụng
 1. Clone dự án từ GitHub về máy tính của bạn.
