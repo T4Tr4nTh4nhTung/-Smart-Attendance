@@ -1,5 +1,5 @@
-# Attendance Checker - Hệ thống điểm danh tự động bằng nhận diện khuôn mặt
-Xin chào các bạn!
+## Attendance Checker - Hệ thống điểm danh tự động bằng nhận diện khuôn mặt
+#Xin chào các bạn!
 Đây là dự án "Attendance Checker" do mình phát triển nhằm giải quyết vấn đề điểm danh trong trường học. Ai trong chúng ta cũng biết rằng việc điểm danh thủ công có thể mất thời gian và gây ra nhiều sai sót. Vì vậy, mình đã quyết định xây dựng một hệ thống điểm danh tự động, sử dụng công nghệ nhận diện khuôn mặt, để giúp chúng ta tiết kiệm thời gian và làm cho quá trình điểm danh trở nên hiệu quả hơn.
 
 Yêu cầu cài đặt
