@@ -1,5 +1,5 @@
 ## Attendance Checker - Hệ thống điểm danh tự động bằng nhận diện khuôn mặt
-#Xin chào các bạn!
+Xin chào các bạn!
 Đây là dự án "Attendance Checker" do mình phát triển nhằm giải quyết vấn đề điểm danh trong trường học. Ai trong chúng ta cũng biết rằng việc điểm danh thủ công có thể mất thời gian và gây ra nhiều sai sót. Vì vậy, mình đã quyết định xây dựng một hệ thống điểm danh tự động, sử dụng công nghệ nhận diện khuôn mặt, để giúp chúng ta tiết kiệm thời gian và làm cho quá trình điểm danh trở nên hiệu quả hơn.
 
 Yêu cầu cài đặt
@@ -50,4 +50,4 @@ Chuẩn bị dữ liệu khuôn mặt cho việc nhận diện. Lưu hình ảnh
 Mở file "main.py" và chạy dự án.
 Cửa sổ camera sẽ hiển thị để nhận diện khuôn mặt và điểm danh tự động.
 Cảm ơn vì đã quan tâm đến dự án của mình!
-Tôi hy vọng rằng dự án "Attendance Checker" sẽ giúp ích cho cộng đồng sinh viên tại trường ĐH FPT. Hãy thoải mái tham khảo và sử dụng dự án này để cải thiện quy trình điểm danh trong lớp học. Nếu bạn có bất kỳ ý kiến đóng góp hoặc câu hỏi nào, hãy liên hệ với mình. Chúc các bạn học tập vui vẻ và thành công!
+Tôi hy vọng rằng dự án "Attendance Checker" sẽ giúp ích cho cộng đồng sinh viên và học sinh. Hãy thoải mái tham khảo và sử dụng dự án này để cải thiện quy trình điểm danh trong lớp học. Nếu bạn có bất kỳ ý kiến đóng góp hoặc câu hỏi nào, hãy liên hệ với mình. Chúc các bạn học tập vui vẻ và thành công!
