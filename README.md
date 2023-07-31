@@ -42,7 +42,7 @@ winsound là thư viện sử dụng để phát âm thanh thông báo khi đi�
 ## Hướng dẫn sử dụng
 1. Clone dự án từ GitHub về máy tính của bạn.
 2. Cài đặt các thư viện cần thiết như đã hướng dẫn ở phần trên.
-3. Chuẩn bị dữ liệu khuôn mặt cho việc nhận diện. Lưu hình ảnh của các bạn sinh viên trong thư mục "Pe".
+3. Chuẩn bị dữ liệu khuôn mặt cho việc nhận diện. Lưu hình ảnh của các bạn sinh viên trong thư mục "Pe" và "Con meo sua".
 4. Mở file "main.py" và chạy dự án.
 5. Cửa sổ camera sẽ hiển thị để nhận diện khuôn mặt và điểm danh tự động.
 
