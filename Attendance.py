@@ -10,6 +10,8 @@ from tkinter import ttk
 from PIL import ImageTk, Image
 import winsound
 import mediapipe as mp
+
+
 # Create a MediaPipe Face Detection object
 mp_face_detection = mp.solutions.face_detection
 mp_drawing = mp.solutions.drawing_utils
@@ -92,13 +94,20 @@ def markAttendance(name, class_):
     # Extract the unique identifier from the recognized name
     unique_identifier = name  # You may need to modify this to extract the identifier correctly
     
-    # Use the unique identifier for attendance marking
-    with open(Path(__file__).with_name('Attendance.csv'), mode='a') as file:
-        file.write(f'{unique_identifier},{class_},{current_time},{current_date}\n')
+    print(f"Marking attendance for: {unique_identifier}, {class_}, {current_time}, {current_date}")
+    
+    try:
+        # Get the script's directory and construct the file path
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        csv_file_path = os.path.join(script_dir, 'Attendance.csv')
+        
+        with open(csv_file_path, mode='a') as file:
+            file.write(f'{unique_identifier},{class_},{current_time},{current_date}\n')
+    except Exception as e:
+        print(f"Error writing to CSV: {e}")
     
     tree.insert('', 'end', values=[unique_identifier, class_, current_time, current_date])
     winsound.Beep(500, 200)
-
 
 # Create canvas widget to display video capture
 canvas = tk.Canvas(root, width=640, height=480)
@@ -156,7 +165,7 @@ while True:
             face_distances = face_recognition.face_distance(encoded_face_train, encoded_face)
             match_index = np.argmin(face_distances)
 
-            if matches[match_index]:
+            if 0 <= match_index < len(classNames):
                 name_class = classNames[match_index]
                 if "_" in name_class:
                     class_ = name_class.split('_')[1]
@@ -175,6 +184,9 @@ while True:
 
                 # Mark attendance
                 markAttendance(name, class_)
+            else:
+                # Handle the case when match_index is out of range, e.g., show an "Unknown" label
+                name_class = "Unknown"
 
     # Convert the image to PIL format
     cv2image = cv2.cvtColor(img, cv2.COLOR_BGR2RGBA)
