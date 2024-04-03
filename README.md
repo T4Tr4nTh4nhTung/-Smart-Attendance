@@ -76,5 +76,5 @@ Dự án sử dụng các thư viện sau:
 Chúng tôi rất hoan nghênh mọi sự đóng góp vào dự án này. Nếu bạn muốn đóng góp hoặc báo cáo lỗi, vui lòng tạo một Issue hoặc Pull Request trên GitHub của chúng tôi.
 
 ## Giấy Phép
-Dự án này được phân phối dưới giấy phép [Tên Giấy Phép]. Xem [Tệp Giấy Phép](LICENSE.md) để biết thêm chi tiết.
+Dự án này được phân phối dưới giấy phép [Tên Giấy Phép]. Xem [Tệp Giấy Phép](LICENSE) để biết thêm chi tiết.
 
