@@ -33,7 +33,7 @@ pip install pandas
 pip install mediapipe
 pip install pillow
 
-Lưu ý: Thư viện winsound được tích hợp sẵn với Python, không cần cài đặt thêm.
+Lưu ý: Thư viện beepy có thể sưa đổi tiếng kêu từ 1 - 9
 
 ## Sử Dụng
 ### Chuẩn Bị:
@@ -66,7 +66,7 @@ Dự án sử dụng các thư viện sau:
 - mediapipe: Cho nhận diện khuôn mặt sử dụng thư viện MediaPipe.
 - PIL (Python Imaging Library): Cho xử lý và hiển thị hình ảnh.
 - tkinter: Cho việc tạo giao diện đồ họa người dùng (GUI).
-- winsound: Cho phát thông báo âm thanh.
+- beepy: Cho phát thông báo âm thanh.
 - threading: Cho hỗ trợ đa luồng.
 
 ## Cách Hoạt Động
