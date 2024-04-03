@@ -15,7 +15,9 @@ Dự án này là một Hệ thống Điểm Danh Tự Động sử dụng công
 - Tự động nhận diện và điểm danh dựa trên nhận diện khuôn mặt.
 - Cung cấp giao diện đồ họa (GUI) để dễ dàng tương tác.
 - Cho phép xóa nội dung tệp CSV điểm danh và thoát ứng dụng qua menu tệp.
-
+![Screenshot 2024-04-03 100441](https://github.com/T4Tr4nTh4nhTung/-Smart-Attendance/assets/141056274/25388a3d-23d7-457c-9487-526d348b2eb2)
+![Screenshot 2024-04-03 100500](https://github.com/T4Tr4nTh4nhTung/-Smart-Attendance/assets/141056274/50c7c0ca-5370-45a8-bf91-04c70270f3fa)
+![Screenshot 2024-04-03 100517](https://github.com/T4Tr4nTh4nhTung/-Smart-Attendance/assets/141056274/fe5e8552-b278-4ada-a002-165e81dba91e)
 ## Cài Đặt
 Để chạy dự án này trên máy tính của bạn, hãy tuân theo các bước cài đặt sau:
 
